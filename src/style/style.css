@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  
+}
+.found-books{
+  text-align: center;
+  margin-top: 10%;
+ 
+}
+/* Basic styles for the container */
+.App {
+  text-align: center;
+}
+
+/* Search form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10%;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 1%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 1% 2%;
+  cursor: pointer;
+}
+
+/* Loading indicator styles */
+.loading-indicator {
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-top: 10%;
+}
+
+.book-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2%;
+  overflow: scroll;
+  margin-top: 0%;
+  padding: 4%;
+ 
+}
+.load-more-container{
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 5%;
+
+}
+@media only screen and (max-width: 768px) {
+  .book-list {
+    margin-top: 0%;
+  }
+  .load-more-container{
+    margin-bottom: 20%;
+  }
+  .found-books{
+    margin-top: 35%;
+
+  }
+}
+@media only screen and (max-width: 468px) {
+  .book-list {
+    margin-top: 0%;
+  }
+  .load-more-container{
+    margin-bottom: 20%;
+  }
+  .found-books{
+    margin-top: 45%;
+
+  }
+}
+@media only screen and (max-width: 320px) {
+  .book-list {
+    margin-top: 0%;
+  }
+  .load-more-container{
+    margin-bottom: 20%;
+  }
+  .found-books{
+    margin-top: 60%;
+
+  }
+}

@@ -1,0 +1,22 @@
+/* Select.css */
+
+/* Custom styling for the select element */
+.select-container {
+    position: relative;
+    width: 15%;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    appearance: none; /* Hide default arrow in some browsers */
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 468px) {
+    .select-container {
+      width: 30%;
+    }
+  }
