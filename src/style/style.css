@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, h2, p {
   margin: 0;
   padding: 0;
@@ -13,12 +13,12 @@ body {
   margin-top: 10%;
  
 }
-/* Basic styles for the container */
+
 .App {
   text-align: center;
 }
 
-/* Search form styles */
+
 form {
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ button {
   cursor: pointer;
 }
 
-/* Loading indicator styles */
+
 .loading-indicator {
   color: #666;
   font-size: 18px;

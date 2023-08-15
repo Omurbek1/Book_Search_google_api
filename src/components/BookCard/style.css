@@ -1,10 +1,10 @@
 
 .book-card {
     display: flex;
-    flex-direction: column; /* Change to column */
+    flex-direction: column;
     border: 1px solid #ddd;
     padding: 1%;
-    width: calc(20% - 20px); /* Adjust width to accommodate two cards per row */
+    width: calc(20% - 20px);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #e0e0e0;
     margin:1%
@@ -36,7 +36,7 @@
    
     margin-bottom: 2%;
   }
-  /* Load more button styles */
+ 
   .load-more-button {
     background-color: #007bff;
     color: white;
@@ -50,7 +50,7 @@
   }
   
   
-  /* Loading skeleton styles */
+ 
   .skeleton {
     background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
     background-size: 200% 100%;
